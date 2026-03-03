@@ -1,0 +1,17 @@
+body{
+    background-color:darkgray
+}
+
+#footer{
+   
+   list-style-type: none;
+   background-color: rgb(78, 78, 78);
+   color: white;
+   display: flex;
+   gap: 150px;
+}
+
+a{
+    color: white;
+    
+}

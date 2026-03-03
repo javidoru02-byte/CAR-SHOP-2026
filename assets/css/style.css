@@ -30,3 +30,7 @@ article{
 html{
     scroll-behavior: smooth;
 }
+
+#Logo{
+    width:200px;
+}

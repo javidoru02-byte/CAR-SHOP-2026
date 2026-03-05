@@ -1,5 +1,5 @@
 body{
-    background-color:darkgray
+    background-color:darkgray;
 }
 
 #footer, nav{
@@ -31,6 +31,6 @@ html{
     scroll-behavior: smooth;
 }
 
-#Logo{
+#brand-logo{
     width:200px;
 }

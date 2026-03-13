@@ -1,117 +1,101 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-
-#footer{
-   
-   list-style-type: none;
-   background-color: rgb(78, 78, 78);
-   color: white;
-   display: flex;
-   gap: 150px;
-   padding: 14px;
-   margin: 0;
-   
+#footer {
+  list-style-type: none;
+  background-color: rgb(78, 78, 78);
+  color: white;
+  display: flex;
+  gap: 150px;
+  padding: 14px;
+  margin: 0;
 }
 
-a{
-    color: white;
- 
+a {
+  color: white;
 }
 
-article{
-    font-size: 18px;
-    text-align: justify;
+article {
+  font-size: 18px;
+  text-align: justify;
 }
 
-
-
-.brand-logo{
-    width:200px;
-
+.brand-logo {
+  width: 200px;
 }
 
-.first-picture{
-    position: relative;
+.first-picture {
+  position: relative;
 }
 
-#garage-logo{
-    width: 100%;
-    height: 800px;
-    opacity: 0.5;
-    display: block;
-
+#garage-logo {
+  width: 100%;
+  height: 800px;
+  opacity: 0.5;
+  display: block;
 }
 
-h1{
-    position: absolute;
-    background-color: black;
-    color: aliceblue;
-    padding: 20px;
-    top: 40%;
-    left: 30%;
-    right: 30%;
-    text-align: center;
-    border-radius: 20px;
-    z-index:10;
+h1 {
+  position: absolute;
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+  top: 40%;
+  left: 30%;
+  right: 30%;
+  text-align: center;
+  border-radius: 20px;
+  z-index: 10;
 }
 
-nav{
-    background-color: rgb(78, 78, 78);
-    list-style-type: none;
-    display: flex;
-    gap: 150px;
-    padding: 30px;
-    padding-left: auto;
-    padding-right: auto;
-
-
+nav {
+  background-color: rgb(78, 78, 78);
+  list-style-type: none;
+  display: flex;
+  gap: 150px;
+  padding: 30px;
 }
 
+p {
+  padding: 10px;
+}
 
+h2 {
+  text-align: center;
+}
+h3 {
+  padding: 10px;
+}
 
- p{
-    padding: 10px;
- }
+article {
+  box-sizing: border-box;
+}
 
- h2{
-    text-align: center;
-    
- }
- h3{
-    
-    padding: 10px;
+.info {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
 
- }
+img {
+  display: inline-block;
+  width: 49%;
+  height: auto;
+}
 
- article{
-    box-sizing: border-box;
- }
-
- .info{
-    display: inline-block;
-    width: 33%;
-    vertical-align: top;
- }
-
- img{
-    display: inline-block;
-    width: 49%;
-    height: auto;
- }
- 
-#info-table, td, th{
-    border: 2px solid black;
-    margin: 50px;
-    padding: 10px;
-    border-collapse: collapse;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-   
- }
+#info-table,
+td,
+th {
+  border: 2px solid black;
+  margin: 50px;
+  padding: 10px;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

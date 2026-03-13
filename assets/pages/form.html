@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Form</h1>
+    </header>
+
+    <main>
+      <form action="">
+        <fieldset>
+          <legend>Personal info</legend>
+
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" name="first-name" value="David" />
+
+          <p></p>
+
+          <label for="last-name">Last name</label>
+          <input
+            type="text"
+            id="last-name"
+            name="last-name"
+            value="Zhuchenko"
+          />
+
+          <p></p>
+
+          <label for="datetime-local">Birthday: </label>
+          <input type="datetime-local" id="datetime-local" name="birthday" />
+
+          <p>Gender</p>
+
+          <input type="radio" id="male" name="gender" value="Male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="Female" />
+          <label for="female">Female</label>
+
+          <p></p>
+
+          <label for="drive-experiance"></label>
+          <input type="date" id="drive-experiance" name="drive-experiance" />
+        </fieldset>
+      </form>
+
+      <form action="">
+        <fieldset>
+          <legend>Contacts</legend>
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" />
+
+          <p></p>
+
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone" />
+
+          <p></p>
+
+          <label for="address">Address: </label>
+          <textarea name="address" id="address" rows="5" cols="10"></textarea>
+        </fieldset>
+      </form>
+
+      <form action="">
+        <fieldset>
+          <legend>Car info</legend>
+
+          <label for="brand">Brand</label>
+          <select name="brand" id="brand" required>
+            <option value="" disabled selected>Brand ----</option>
+            <option value="toyota">Toyota</option>
+            <option value="ford">Ford</option>
+            <option value="bmw">BMW</option>
+          </select>
+
+          <p></p>
+
+          <label for="model">Model</label>
+          <select name="model" id="model" required>
+            <option value="" disabled selected>Brand ----</option>
+            <option value="RAV4">RAV4</option>
+            <option value="Corolla">Corolla</option>
+            <option value="Explorer">Explorer</option>
+            <option value="Mustang">Mustang</option>
+            <option value="BMW-3-Series">BMW 3 Series</option>
+            <option value="BMW-X5">BMW X5</option>
+          </select>
+
+          <p></p>
+
+          <label for="used">Used</label>
+          <input type="checkbox" id="used" name="used-or-not" />
+
+          <p>Color</p>
+
+          <input type="radio" id="red" name="color" value="red" />
+          <label for="red">Red</label>
+
+          <input type="radio" id="black" name="color" value="black" />
+          <label for="black">Black</label>
+
+          <input type="radio" id="blue" name="color" value="blue" />
+          <label for="blue">Blue</label>
+
+          <input type="radio" id="white" name="color" value="white" />
+          <label for="white">White</label>
+
+          <input type="radio" id="grey" name="color" value="grey" />
+          <label for="grey">Grey</label>
+
+          <p></p>
+
+          <label for="price">Price</label>
+          <input
+            type="range"
+            id="price"
+            name="car-price"
+            min="1"
+            max="100000"
+            value="50000"
+            step="10000"
+          />
+
+        </fieldset>
+      </form>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

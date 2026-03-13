@@ -42,8 +42,17 @@
 
           <p></p>
 
-          <label for="drive-experiance"></label>
-          <input type="date" id="drive-experiance" name="drive-experiance" />
+          <label for="drive-experiance">Drive experiance</label>
+          <select name="drive-experiance" id="drive-experiance" required>
+            <option value="" disabled selected>Year of driving</option>
+            <option value="less-then-one-year">less then 1 year</option>
+            <option value="one-year">1 year</option>
+            <option value="two-year">2 year</option>
+            <option value="three-year">3 year</option>
+            <option value="four-year">4 year</option>
+            <option value="five-year">5 year</option>
+            <option value="more-then-five-year">more then 5 year</option>
+          </select>
         </fieldset>
       </form>
 
@@ -127,8 +136,8 @@
           />
         </fieldset>
       </form>
-      <button>Cancel</button>
-      <button>Ok</button>
+      <input type="submit" value="OK" />
+      <input type="reset" value="Cancel" />
     </main>
 
     <footer></footer>

@@ -4,134 +4,134 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="stylesheet" href="../../assets/css/form.css" />
   </head>
   <body>
     <header>
-      <h1>Form</h1>
+      <h1>Home work for CSS flexbox</h1>
     </header>
 
     <main>
-      <form action="">
-        <fieldset>
-          <legend>Personal info</legend>
+      <form>
+        <div class="info">
+          <fieldset>
+            <legend>Personal info</legend>
 
-          <label for="first-name">First name</label>
-          <input type="text" id="first-name" name="first-name" />
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name" name="first-name" />
 
-          <p></p>
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name" name="last-name" />
 
-          <label for="last-name">Last name</label>
-          <input type="text" id="last-name" name="last-name" />
+            <label for="datetime-local">Birthday: </label>
+            <input type="datetime-local" id="datetime-local" name="birthday" />
 
-          <p></p>
+            <p>Gender</p>
 
-          <label for="datetime-local">Birthday: </label>
-          <input type="datetime-local" id="datetime-local" name="birthday" />
+            <input type="radio" id="male" name="gender" value="Male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" />
+            <label for="female">Female</label>
 
-          <p>Gender</p>
+            <label for="drive-experiance">Drive experiance</label>
+            <select name="drive-experiance" id="drive-experiance" required>
+              <option value="" disabled selected>Year of driving</option>
+              <option value="less-then-one-year">less then 1 year</option>
+              <option value="one-year">1 year</option>
+              <option value="two-year">2 year</option>
+              <option value="three-year">3 year</option>
+              <option value="four-year">4 year</option>
+              <option value="five-year">5 year</option>
+              <option value="more-then-five-year">more then 5 year</option>
+            </select>
+          </fieldset>
+        </div>
 
-          <input type="radio" id="male" name="gender" value="Male" />
-          <label for="male">Male</label>
-          <input type="radio" id="female" name="gender" value="Female" />
-          <label for="female">Female</label>
+        <div class="info">
+          <fieldset>
+            <legend>Contacts</legend>
 
-          <p></p>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" />
 
-          <label for="drive-experiance">Drive experiance</label>
-          <select name="drive-experiance" id="drive-experiance" required>
-            <option value="" disabled selected>Year of driving</option>
-            <option value="less-then-one-year">less then 1 year</option>
-            <option value="one-year">1 year</option>
-            <option value="two-year">2 year</option>
-            <option value="three-year">3 year</option>
-            <option value="four-year">4 year</option>
-            <option value="five-year">5 year</option>
-            <option value="more-then-five-year">more then 5 year</option>
-          </select>
-        </fieldset>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" />
 
-        <fieldset>
-          <legend>Contacts</legend>
+            <label for="address">Address: </label>
+            <textarea name="address" id="address"></textarea>
+          </fieldset>
+        </div>
 
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" />
+        <div class="info">
+          <fieldset>
+            <legend>Car info</legend>
+            <label for="brand">Brand</label>
+            <select name="brand" id="brand" required>
+              <option value="" disabled selected>Brand ----</option>
+              <option value="toyota">Toyota</option>
+              <option value="ford">Ford</option>
+              <option value="bmw">BMW</option>
+            </select>
 
-          <p></p>
+            <label for="model">Model</label>
+            <select name="model" id="model" required>
+              <option value="" disabled selected>Brand ----</option>
+              <option value="RAV4">RAV4</option>
+              <option value="Corolla">Corolla</option>
+              <option value="Explorer">Explorer</option>
+              <option value="Mustang">Mustang</option>
+              <option value="BMW-3-Series">BMW 3 Series</option>
+              <option value="BMW-X5">BMW X5</option>
+            </select>
 
-          <label for="phone">Phone</label>
-          <input type="text" id="phone" name="phone" />
+            <label for="used">Used</label>
+            <input type="checkbox" id="used" name="used-or-not" />
 
-          <p></p>
+            <p>Color</p>
 
-          <label for="address">Address: </label>
-          <textarea name="address" id="address" rows="5" cols="10"></textarea>
-        </fieldset>
+            <input type="radio" id="red" name="color" value="red" />
+            <label for="red">Red</label>
 
-        <fieldset>
-          <legend>Car info</legend>
+            <input type="radio" id="black" name="color" value="black" />
+            <label for="black">Black</label>
 
-          <label for="brand">Brand</label>
-          <select name="brand" id="brand" required>
-            <option value="" disabled selected>Brand ----</option>
-            <option value="toyota">Toyota</option>
-            <option value="ford">Ford</option>
-            <option value="bmw">BMW</option>
-          </select>
+            <input type="radio" id="blue" name="color" value="blue" />
+            <label for="blue">Blue</label>
 
-          <p></p>
+            <input type="radio" id="white" name="color" value="white" />
+            <label for="white">White</label>
 
-          <label for="model">Model</label>
-          <select name="model" id="model" required>
-            <option value="" disabled selected>Brand ----</option>
-            <option value="RAV4">RAV4</option>
-            <option value="Corolla">Corolla</option>
-            <option value="Explorer">Explorer</option>
-            <option value="Mustang">Mustang</option>
-            <option value="BMW-3-Series">BMW 3 Series</option>
-            <option value="BMW-X5">BMW X5</option>
-          </select>
+            <input type="radio" id="grey" name="color" value="grey" />
+            <label for="grey">Grey</label>
 
-          <p></p>
+            <label for="price">Price</label>
+            <input
+              type="range"
+              id="price"
+              name="car-price"
+              min="1"
+              max="100000"
+              value="50000"
+              step="10000"
+            />
+            <datalist id="prices">
+              <option value="10000" label="10000">10000</option>
+              <option value="20000" label="20000">20000</option>
+              <option value="30000" label="30000">30000</option>
+              <option value="40000" label="40000">40000</option>
+              <option value="50000" label="50000">50000</option>
+              <option value="60000" label="60000">60000</option>
+              <option value="70000" label="70000">70000</option>
+              <option value="80000" label="80000">80000</option>
+            </datalist>
+          </fieldset>
+        </div>
 
-          <label for="used">Used</label>
-          <input type="checkbox" id="used" name="used-or-not" />
-
-          <p>Color</p>
-
-          <input type="radio" id="red" name="color" value="red" />
-          <label for="red">Red</label>
-
-          <input type="radio" id="black" name="color" value="black" />
-          <label for="black">Black</label>
-
-          <input type="radio" id="blue" name="color" value="blue" />
-          <label for="blue">Blue</label>
-
-          <input type="radio" id="white" name="color" value="white" />
-          <label for="white">White</label>
-
-          <input type="radio" id="grey" name="color" value="grey" />
-          <label for="grey">Grey</label>
-
-          <p></p>
-
-          <label for="price">Price</label>
-          <input
-            type="range"
-            id="price"
-            name="car-price"
-            min="1"
-            max="100000"
-            value="50000"
-            step="10000"
-          />
-        </fieldset>
-
-        <input type="submit" value="OK" />
-        <input type="reset" value="Cancel" />
+        <div class="buttons-container">
+          <input type="submit" value="OK" />
+          <input type="reset" value="Cancel" />
+        </div>
       </form>
     </main>
-
-    <footer></footer>
   </body>
 </html>

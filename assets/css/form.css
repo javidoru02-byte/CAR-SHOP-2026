@@ -1,0 +1,117 @@
+body {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.info {
+  flex: 1;
+  min-width: 320px;
+}
+
+fieldset {
+  border: 1px solid black;
+  height: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+fieldset label,
+fieldset input,
+fieldset select,
+fieldset textarea {
+  display: inline-block;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+label {
+  width: 120px;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+select,
+textarea {
+  width: calc(100% - 130px);
+  box-sizing: border-box;
+}
+
+.info p,
+label[for="used"],
+label[for="color"],
+label[for="price"] {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+  margin-left: 0;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  width: auto;
+  margin-right: 15px;
+  font-weight: normal;
+  display: inline;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 10px;
+  display: block;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.buttons-container input {
+  padding: 8px 30px;
+  font-size: 1rem;
+  background-color: rgb(219, 216, 216);
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+label[for="used"],
+input[id="used"] {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  vertical-align: middle;
+}
+
+label[for="used"] {
+  margin-right: 10px;
+}
+
+datalist {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
